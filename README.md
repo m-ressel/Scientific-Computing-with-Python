@@ -5,3 +5,5 @@ Python is one of the most popular, flexible programming languages today. You can
 In the Scientific Computing with Python Certification, I learned Python fundamentals like variables, loops, conditionals, and functions, and had teh opportunity to put them into practise.
 
 In above directories you can see all projects created in this course.
+
+[Link to my certificate] (https://freecodecamp.org/certification/MariaR/scientific-computing-with-python-v7)
