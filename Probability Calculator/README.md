@@ -41,6 +41,6 @@ probability = experiment(hat=hat,
 
 Since this is based on random draws, the probability will be slightly different each time the code is run.
 
-### Submitting
+### Execution
 
 [Link to my project on Replit.](https://replit.com/@MariaSylwiaR/probability-calculator)
