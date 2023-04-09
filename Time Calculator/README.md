@@ -40,4 +40,4 @@ Do not import any Python libraries. Assume that the start times are valid times.
 
 ### Submitting
 
-Project available at https://replit.com/@MariaSylwiaR/arithmetic-formatter
+Project available at https://replit.com/@MariaSylwiaR/time-calculator.
