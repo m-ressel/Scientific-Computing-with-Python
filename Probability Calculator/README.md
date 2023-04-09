@@ -1,4 +1,4 @@
-# Probability Calculator
+# [Probability Calculator](https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/probability-calculator)
 
 ### Assignment
 
@@ -43,4 +43,4 @@ Since this is based on random draws, the probability will be slightly different 
 
 ### Submitting
 
-Project available at https://replit.com/@MariaSylwiaR/probability-calculator.
+[Link to my project on Replit.](https://replit.com/@MariaSylwiaR/probability-calculator)
