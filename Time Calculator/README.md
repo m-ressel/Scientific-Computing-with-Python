@@ -38,6 +38,6 @@ add_time("6:30 PM", "205:12")
 
 Do not import any Python libraries. Assume that the start times are valid times. The minutes in the duration time will be a whole number less than 60, but the hour can be any whole number.
 
-### Submitting
+### Execution
 
-[Link to my project on Replit.](Project available at https://replit.com/@MariaSylwiaR/time-calculator)
+[Link to my project on Replit.](https://replit.com/@MariaSylwiaR/time-calculator)
