@@ -58,6 +58,6 @@ Percentage spent by category
         g     
 ```
 
-### Submitting
+### Execution
 
 [Link to my project on Replit.](https://replit.com/@MariaSylwiaR/boilerplate-budget-app)
