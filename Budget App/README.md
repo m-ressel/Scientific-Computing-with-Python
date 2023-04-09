@@ -1,4 +1,4 @@
-# Budget App
+# [Budget App](https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/budget-app)
 
 ### Assignment
 
@@ -60,4 +60,4 @@ Percentage spent by category
 
 ### Submitting
 
-Project available at https://replit.com/@MariaSylwiaR/boilerplate-budget-app.
+[Link to my project on Replit.](https://replit.com/@MariaSylwiaR/boilerplate-budget-app)
