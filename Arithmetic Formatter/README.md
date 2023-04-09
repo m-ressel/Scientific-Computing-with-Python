@@ -1,4 +1,4 @@
-# Arithmetic Formatter
+# [Arithmetic Formatter[(https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/arithmetic-formatter)
 
 ### Assignment
 
@@ -68,4 +68,4 @@ The unit tests for this project are in `test_module.py`. We imported the tests f
 
 ### Submitting
 
-Project available at https://replit.com/@MariaSylwiaR/arithmetic-formatter
+[Link to project on Replit](https://replit.com/@MariaSylwiaR/arithmetic-formatter)
