@@ -6,4 +6,4 @@ In the Scientific Computing with Python Certification, I learned Python fundamen
 
 In above directories you can see all projects created in this course.
 
-[Link to my certificate] (https://freecodecamp.org/certification/MariaR/scientific-computing-with-python-v7)
+[Link to my certificate](https://freecodecamp.org/certification/MariaR/scientific-computing-with-python-v7)
