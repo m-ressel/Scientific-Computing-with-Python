@@ -68,6 +68,6 @@ Square(side=4)
 8
 ```
 
-## Submitting
+## Execution
 
 [Link to my project on Replit.](https://replit.com/@MariaSylwiaR/boilerplate-polygon-area-calculator)
