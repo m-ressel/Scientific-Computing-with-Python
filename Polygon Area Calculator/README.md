@@ -4,7 +4,7 @@
 
 In this project you will use object oriented programming to create a Rectangle class and a Square class. The Square class should be a subclass of Rectangle and inherit methods and attributes.
 
-**Rectangle class
+*Rectangle class
 
 When a Rectangle object is created, it should be initialized with ```width``` and ```height``` attributes. The class should also contain the following methods:
 
@@ -18,7 +18,7 @@ When a Rectangle object is created, it should be initialized with ```width``` an
 
 Additionally, if an instance of a Rectangle is represented as a string, it should look like: ```Rectangle(width=5, height=10)```.
 
-**Square class
+*Square class
 
 The Square class should be a subclass of Rectangle. When a Square object is created, a single side length is passed in. The ```__init__``` method should store the side length in both the ```width``` and ```height``` attributes from the Rectangle class.
 
@@ -26,7 +26,7 @@ The Square class should be able to access the Rectangle class methods but should
 
 Additionally, the ```set_width``` and ```set_height``` methods on the Square class should set both the width and height.
 
-**Usage example
+*Usage example
 
 ```
 rect = shape_calculator.Rectangle(10, 5)
