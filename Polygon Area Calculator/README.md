@@ -4,7 +4,7 @@
 
 In this project you will use object oriented programming to create a Rectangle class and a Square class. The Square class should be a subclass of Rectangle and inherit methods and attributes.
 
-### Rectangle class*
+### Rectangle class
 
 When a Rectangle object is created, it should be initialized with ```width``` and ```height``` attributes. The class should also contain the following methods:
 
