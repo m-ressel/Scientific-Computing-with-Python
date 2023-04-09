@@ -1,4 +1,4 @@
-# Time Calculator
+# [Time Calculator](https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/time-calculator)
 
 ### Assignment
 
@@ -40,4 +40,4 @@ Do not import any Python libraries. Assume that the start times are valid times.
 
 ### Submitting
 
-Project available at https://replit.com/@MariaSylwiaR/time-calculator.
+[Link to my project on Replit.](Project available at https://replit.com/@MariaSylwiaR/time-calculator)
