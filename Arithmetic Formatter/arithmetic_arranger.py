@@ -1,22 +1,28 @@
 def arithmetic_arranger(problems, calc=False):
+    # first error - check if there are less than 4 equation
     if len(problems) > 5:
         return "Error: Too many problems."
 
+    # list for problems arranged line by line
     prearranged_problems = []
+    
     # arranging all problems one by one and inserting them into a list
     for p in problems:
         [l0, pm, l1] = p.split()
 
-        # checking all errors
+        # second error - checking if both sides of the equation are numeric
         if l0.lstrip("-").isdigit() is False or l1.lstrip("-").isdigit() is False:
             return "Error: Numbers must only contain digits."
 
+        # third error - checking if both sides of the equation have fewer than 4 digits
         if max([len(l0), len(l1)]) > 4:
             return "Error: Numbers cannot be more than four digits."
 
+        # forth error - check if operator between numbers is either plus or minus
         if pm != '+' and pm != '-':
             return "Error: Operator must be '+' or '-'."
 
+        # arranging equasions in lines and inserting them into list 
         prearranged_problems.append(arranger(l0, pm, l1, calc))
 
     # if calc=False we want to get output of 3 lines; if calc=True we want output of 4 lines
@@ -25,8 +31,9 @@ def arithmetic_arranger(problems, calc=False):
     else:
         arranged_problems = ['', '', '', '']
 
-    # arranging all problems line by line and adding spaces on the left side
-    # space between problems
+    # arranging all first, second, third (and forth if calc=TRUE) lines of equations together and adding spaces on the left side
+    
+    # distance between all problems is exactly 4 spaces
     space = 4 * ' '
 
     # avoiding adding space to the first element
@@ -43,7 +50,8 @@ def arithmetic_arranger(problems, calc=False):
             for p in problem:
                 arranged_problems[i] += space + p
                 i += 1
-
+     
+    # joining all elements of arranged_problems with '\n' and returning them
     return '\n'.join(arranged_problems)
 
 
