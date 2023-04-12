@@ -1,8 +1,6 @@
 import random
 import copy
 
-# Consider using the modules imported above.
-
 class Hat:
     def __init__(self, **kwargs):
         self.contents = []
@@ -15,7 +13,7 @@ class Hat:
             self.contents = []
             return old_self_contents
         drawn_balls = random.sample(self.contents, n)
-        #deleting drawn balls from hat
+        # deleting drawn balls from hat
         for i in drawn_balls:
             if i in self.contents:
                 self.contents.remove(i)
@@ -31,16 +29,17 @@ def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
         # copying hat as drawing balls remove them from the hat
         hat_copy = copy.deepcopy(hat)
         k = hat_copy.draw(num_balls_drawn)
-        k_set = list(set(k))
+        # all drawn colors in set
+        k_set = set(k)
         chance = 0
-        # checking if all expected colors are in the list of drawn balls
+        # checking if all expected colors are in the set of drawn balls
         if all(item in k_set for item in list_expected_colors):
             # checking if number of drawn balls is equal or greater than expected value
             for element in list_expected_colors:
                 if not k.count(element) >= expected_balls[element]:
-                    # if the number of balls in a certain color is smaller than expected, I add 1 to chance variable
+                    # if the number of balls in a certain color is smaller than expected, function adds 1 to chance variable
                     chance += 1
-            # only if all gotten numbers are greater than expected, I add +1 to successes
+            # only if all numbers are greater than expected, function adds +1 to successes
             if chance == 0:
                 successes += 1
     # gotten probability of successes in num_experiments experiments
