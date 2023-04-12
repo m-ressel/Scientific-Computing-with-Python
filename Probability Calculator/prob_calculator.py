@@ -24,7 +24,7 @@ def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
     if not all(item in list(set(hat.contents)) for item in list(expected_balls.keys())):
         return 0
     successes = 0
-    list_expected_colors = list(expected_balls.keys())
+    set_expected_colors = set(expected_balls.keys())
     for i in range(num_experiments):
         # copying hat as drawing balls remove them from the hat
         hat_copy = copy.deepcopy(hat)
@@ -33,9 +33,9 @@ def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
         k_set = set(k)
         chance = 0
         # checking if all expected colors are in the set of drawn balls
-        if all(item in k_set for item in list_expected_colors):
+        if all(item in k_set for item in set_expected_colors):
             # checking if number of drawn balls is equal or greater than expected value
-            for element in list_expected_colors:
+            for element in set_expected_colors:
                 if not k.count(element) >= expected_balls[element]:
                     # if the number of balls in a certain color is smaller than expected, function adds 1 to chance variable
                     chance += 1
