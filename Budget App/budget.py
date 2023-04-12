@@ -66,7 +66,7 @@ def create_spend_chart(categories):
         lines += "\n"
     # adding dashed lines between percentages and category names
     lines += 4*" " + (3*len(amounts)+1)*"-" + "\n"
-    # printing vertically
+    # printing vertically using method described in https://stackoverflow.com/a/32872470
     for i in itertools.zip_longest(*names, fillvalue=" "):
         # starting each line with 5 spaces
         lines += 5*" "
