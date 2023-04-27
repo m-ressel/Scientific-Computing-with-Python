@@ -1,4 +1,4 @@
-# Scientific Computing with Python 🐍
+# 🐍 Scientific Computing with Python 
 
 Python is one of the most popular, flexible programming languages today. You can use it for everything from basic scripting to machine learning.
 
