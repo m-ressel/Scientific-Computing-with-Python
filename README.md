@@ -4,7 +4,7 @@ Python is one of the most popular, flexible programming languages today. You can
 
 In the Scientific Computing with Python Certification, I learned Python fundamentals like variables, loops, conditionals, and functions, and had the opportunity to put them into practise.
 
-In above directories you can see all projects created in this course:
+In above directories you can see all projects created in this course such as:
 
 * **[➗ Arithmetic Formatter](https://github.com/m-ressel/Scientific-Computing-with-Python/tree/main/Arithmetic%20Formatter)** - a function that receives a list of strings of arithmetic problems and returns them arranged vertically and side-by-side
 * **[🕒 Time Calculator](https://github.com/m-ressel/Scientific-Computing-with-Python/tree/main/Time%20Calculator)** - a function that adds a duration to a starting time and returns the resulting time in a specific format, and can also calculate the day of the week after a certain number of days have passed.
